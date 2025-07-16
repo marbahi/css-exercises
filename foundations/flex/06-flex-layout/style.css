@@ -24,3 +24,63 @@ input {
   padding: 8px 24px;
   width: 400px;
 }
+
+/* SOLUTIONS */
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+button {
+  font-weight: bold;
+  color: #262626;
+  padding: 8px 16px;
+}
+
+.header, .footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 16px;
+}
+
+.footer {
+  background-color: #eeeeee;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0px;
+  display: flex;
+  gap: 16px;
+  color: #cccccc;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link {
+  color: #7f7f7f;
+}
+
+a:visited{
+  color: #7f7f7f;
+}
+
+a:hover {
+  color: #363636;
+}
+
+a:active {
+  color: #363636;
+}
